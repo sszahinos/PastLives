@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PastLives</string>
+    <string name="start">Talk with the seer</string>
+    <string name="title">Do you want to know what things did you do last life?</string>
+    <string name="title2">Come with me fellow stranger, I will tell you who you were…</string>
+    <string name="continueError">Please, I need this information so bad!</string>
+    <string name="askName">Tell me, how others calls you? Do you have a name?</string>
+    <string name="askDate">I need to know the date you came to this world.</string>
+    <string name="askAnimal">What animal do you prefer as your companion?</string>
+    <string name="askPlace">I can see something in your mind now… You would rather live in… </string>
+    <string name="askGift">I like you. Choose a gift.</string>
+    <string name="chGift1">Sunglasses</string>
+    <string name="chGift2">Cake</string>
+    <string name="chGift3">Chessboard</string>
+    <string name="hint">Your answer</string>
+    <string name="next">&gt;</string>
+    <string name="back">&lt;</string>
+    <string-array name="animals">
+        <item>Octopus</item>
+        <item>Chameleon</item>
+        <item>Pig</item>
+        <item>M</item>
+    </string-array>
+</resources>
