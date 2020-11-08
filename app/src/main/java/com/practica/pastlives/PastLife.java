@@ -1,21 +1,51 @@
 package com.practica.pastlives;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class PastLife {
+public class PastLife implements Serializable {
     String name;
-    int age;
-    String animal;
+    Date date;
+    int animal;
     String place;
-    String gift;
+    int gift;
 
-    public PastLife(String name, Date date, String animal, String place, String gift) {
+    public PastLife(String name, Date date, int animal, String place, int gift) {
         this.name = name;
         this.animal = animal;
-        this.place = place;
+        this.place = place.toUpperCase();
         this.gift = gift;
-        //TODO
-        //age = calcAge(date);
+        this.date = date;
     }
 
+    @Override
+    public String toString() {
+        return "PastLife{" +
+                "name='" + name + '\'' +
+                ", date=" + date +
+                ", animal='" + animal + '\'' +
+                ", place='" + place + '\'' +
+                ", gift='" + gift + '\'' +
+                '}';
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public int getAnimal() {
+        return animal;
+    }
+
+    public String getPlace() {
+        return place;
+    }
+
+    public int getGift() {
+        return gift;
+    }
 }

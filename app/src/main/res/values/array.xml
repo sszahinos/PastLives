@@ -1,0 +1,30 @@
+<resources>
+    <string-array name="animals">
+        <item>Octopus</item>
+        <item>Chameleon</item>
+        <item>Pig</item>
+        <item>Raven</item>
+    </string-array>
+    <string-array name="races">
+        <item>a Cthulhu\'s offspring</item>
+        <item>an Anunnaki\'s descendant</item>
+        <item>an Uruk-hai</item>
+        <item>a Nito\'s made creature</item>
+    </string-array>
+    <string-array name="features">
+        <item>was the one of the most great thieves of its dimension</item>
+        <item>was a mediocre citizen. You were dumb, lazy and ugly</item>
+        <item>became the richest merchant in the city</item>
+    </string-array>
+    <string-array name="death">
+        <item>falling off a cliff trying to reach a coin you saw below to buy beverage.
+            For information only, your liver was grateful to finally die</item>
+        <item>getting rooted by an ancient tree. You broke your back tripping over one of
+            this tree\'s root and became tetraplegic. The last thing you saw was the tree
+            wrapping you</item>
+        <item>drowned while diving into the sea. You shouldn\'t have gone into that
+            underwater cave trying to catch that legendary fish</item>
+        <item>… nevermind. Your body is still alive. You were abducted by aliens and they made
+            your mind travel through dimensions when, finally, ended landing on you</item>
+    </string-array>
+</resources>

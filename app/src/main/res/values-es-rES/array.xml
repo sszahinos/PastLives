@@ -1,0 +1,31 @@
+<resources>
+    <string-array name="animals">
+        <item>Pulpo</item>
+        <item>Camaleón</item>
+        <item>Gorrino</item>
+        <item>Cuervo</item>
+    </string-array>
+    <string-array name="races">
+        <item>un vástago de Cthulhu</item>
+        <item>un descendiente de los Anunnaki</item>
+        <item>un Uruk-hai</item>
+        <item>una criatura creada por Nito</item>
+    </string-array>
+    <string-array name="features">
+        <item>fue uno de los mejores ladrones de su dimensión</item>
+        <item>fue un ciudadano mediocre. Fuiste tonto, vago y encima feo</item>
+        <item>se convirtío en el mercader más rico de la ciudad</item>
+    </string-array>
+    <string-array name="death">
+        <item>debido a una caída desde un precipicio al intentar coger una moneda que viste debajo
+            para comprar algo de alcohol. Solo como información, tu hígado estuvo agradecido
+            por morir finalmente</item>
+        <item>siendo enraizado por un árbol milenario. Te rompiste la espalda al tropezarte
+            con una de sus raíces y acabaste tetraplégico. La última cosa que pudiste ver
+            fue al árbol extendiendo sus ramas para envolverte en ellas</item>
+        <item>ahogado mientras buceabas en el mar. No deberías haber entrado en aquella cueva
+            intentando atrapar ese pez legendario del que hablaban en tu cultura</item>
+        <item>… olvídalo. Tu cuerpo sigue vivo. Fuiste abducido por aliens e hicieron que tu
+            mente viajara a través de las dimensiones cuando, finalmente, acabó llegando a ti</item>
+    </string-array>
+</resources>

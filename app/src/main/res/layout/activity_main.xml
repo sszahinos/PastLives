@@ -4,40 +4,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/seer2"
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/tvTitle2"
-        android:layout_width="186dp"
-        android:layout_height="183dp"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="228dp"
-        android:text="@string/title2"
-        android:textAlignment="textStart"
-        android:textSize="30sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
         android:id="@+id/tvTitle"
-        android:layout_width="187dp"
-        android:layout_height="185dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="44dp"
+        android:layout_width="348dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="412dp"
+        android:fontFamily="@font/achafsex"
+        android:gravity="bottom|center"
         android:text="@string/title"
-        android:textAlignment="viewEnd"
+        android:textColor="@color/white"
         android:textSize="30sp"
+        android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/bStart"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="124dp"
-        android:layout_marginBottom="220dp"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginBottom="52dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/pattern"
+
         android:text="@string/start"
+        android:textSize="16sp"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bSound"
+        android:layout_width="41dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/sound"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

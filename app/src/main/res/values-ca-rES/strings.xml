@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vides pasades</string>
+    <string name="start">Parlar amb el vident</string>
+    <string name="title">Et dono la benvinguda. T\'agradaria saber alguna
+        cosa sobre el teu passat en un altra dimensió?</string>
+    <string name="title2">Vine amb mi, agradable errant, et contaré qui o què vas ser…</string>
+    <string name="continueError">Siusplau, necessito aquesta informació!</string>
+    <string name="askName">Digues, com et diuen els altres? Tens nom?</string>
+    <string name="askDate">Necessito saber la data en la que vas aparèixer en aquest món.</string>
+    <string name="askAnimal">Quin animal prefereixes com acompanyant?</string>
+    <string name="askPlace">Ja puc veure alguna cosa… Preferiries viure a…?</string>
+    <string name="askGift">Vostè m\'agrada. Escull un regal.</string>
+    <string name="thinking">El teu passat està venint a la meva ment…</string>
+    <string name="chGift1">Ulleres de sol</string>
+    <string name="chGift2">Pastís</string>
+    <string name="chGift3">Tauler d\'escacs</string>
+    <string name="hint">La teva resposta</string>
+    <string name="backMessage">Perqué em deixes sol?</string>
+    <string name="notAnswerMessage">Necessito que respongui això.</string>
+    <string name="story">Vas ser algú que es deia %1$s, %2$s que %3$s.
+        Vas morir amb %4$d anys %5$s.</string>
+</resources>

@@ -4,25 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/flat"
     tools:context=".ResultAct">
 
     <ImageView
         android:id="@+id/ivResult"
-        android:layout_width="346dp"
-        android:layout_height="339dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_margin="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
         android:id="@+id/tvResult"
-        android:layout_width="347dp"
-        android:layout_height="205dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginBottom="108dp"
-        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="346dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/achafsex"
+        android:gravity="center"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="10dp"
+        android:text="@string/story"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

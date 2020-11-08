@@ -4,17 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/flat"
+    android:visibility="visible"
     tools:context=".InfoMenuAct">
+
+    <ImageView
+        android:id="@+id/ivSeer"
+        android:layout_width="416dp"
+        android:layout_height="787dp"
+        android:background="@drawable/seer1"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivEndBG"
+        android:layout_width="416dp"
+        android:layout_height="787dp"
+        android:background="@color/results_bg"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/bBack"
         android:layout_width="53dp"
         android:layout_height="53dp"
-        android:layout_marginEnd="276dp"
+        android:layout_marginStart="80dp"
         android:layout_marginBottom="52dp"
+        android:background="@drawable/et_border"
+        android:gravity="center"
         android:text="@string/back"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/bContinue"
@@ -22,156 +45,203 @@
         android:layout_height="53dp"
         android:layout_marginEnd="80dp"
         android:layout_marginBottom="52dp"
+        android:background="@drawable/et_border"
+        android:gravity="center"
         android:text="@string/next"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="256dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="76dp"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_margin="30dp"
         android:progress="15"
+        android:progressDrawable="@drawable/pb_background"
         android:scaleY="5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tvMessage"
-        android:layout_width="205dp"
-        android:layout_height="156dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginBottom="452dp"
+        android:layout_width="match_parent"
+        android:layout_height="216dp"
+        android:fontFamily="@font/achafsex"
+        android:gravity="center|center_horizontal"
         android:text="@string/askName"
         android:textAlignment="center"
-        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:padding="20dp"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMaxTextSize="50sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188" />
 
     <EditText
         android:id="@+id/etTextRW"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginBottom="332dp"
-        android:background="@drawable/et_border"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="40dp"
         android:ems="10"
-        android:hint="@string/hint"
-        android:inputType="textPersonName"
         android:padding="5dp"
         android:textAlignment="center"
+        android:visibility="visible"
+        android:background="@drawable/et_border"
+        android:hint="@string/hint"
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/etTextR"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginBottom="332dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
         android:background="@drawable/et_border"
+        android:layout_margin="40dp"
+        android:clickable="true"
         android:ems="10"
+        android:focusable="false"
         android:hint="@string/hint"
+        android:inputType="date"
+        android:maxLines="1"
         android:padding="5dp"
         android:textAlignment="center"
         android:visibility="gone"
-        android:inputType="date"
-        android:focusable="false"
-        android:clickable="true"
-        android:maxLines="1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <Spinner
         android:id="@+id/spinner"
-        android:layout_width="207dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="364dp"
-        android:visibility="gone"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/ivPlace4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="76dp"
-        android:layout_marginBottom="136dp"
-        android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <ImageView
-        android:id="@+id/ivPlace1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="312dp"
-        android:visibility="gone"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <ImageView
-        android:id="@+id/ivPlace2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="312dp"
-        android:layout_marginEnd="76dp"
-        android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <ImageView
-        android:id="@+id/ivPlace3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginBottom="136dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="40dp"
+        android:ems="10"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="368dp"
+        android:background="@drawable/et_border"
+        android:gravity="center|center_horizontal"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
-    <RadioButton
-        android:id="@+id/bRadio1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="132dp"
+
+    <ImageButton
+        android:id="@+id/ibPlace1"
+        android:layout_width="135dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="60dp"
         android:layout_marginTop="320dp"
-        android:padding="10dp"
-        android:text="@string/chGift1"
+        android:background="@drawable/mountain"
         android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <RadioButton
-        android:id="@+id/bRadio2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="132dp"
-        android:layout_marginTop="416dp"
-        android:padding="10dp"
-        android:text="@string/chGift2"
+    <ImageButton
+        android:id="@+id/ibPlace2"
+        android:layout_width="133dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="60dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/rainforest"
+        android:maxWidth="42dp"
+        android:maxHeight="42dp"
+        android:scaleType="fitStart"
         android:visibility="gone"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <RadioButton
-        android:id="@+id/bRadio3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="132dp"
-        android:layout_marginTop="500dp"
-        android:padding="10dp"
-        android:text="@string/chGift3"
+    <ImageButton
+        android:id="@+id/ibPlace3"
+        android:layout_width="134dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/beach"
         android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/ibPlace1" />
+
+    <ImageButton
+        android:id="@+id/ibPlace4"
+        android:layout_width="132dp"
+        android:layout_height="135dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/desert"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ibPlace2" />
+    <RadioGroup
+        android:id="@+id/bRadioGroup"
+        android:layout_width="258dp"
+        android:layout_height="271dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="148dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/bRadio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:text="@string/chGift1"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMaxTextSize="50sp"
+            android:checked="true"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/bRadio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:text="@string/chGift2"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMaxTextSize="50sp"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/bRadio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:text="@string/chGift3"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMaxTextSize="50sp"
+            android:textSize="25sp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvThinking"
+        android:layout_width="304dp"
+        android:layout_height="166dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="64dp"
+        android:fontFamily="@font/achafsex"
+        android:gravity="center|center_horizontal"
+        android:text="@string/thinking"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

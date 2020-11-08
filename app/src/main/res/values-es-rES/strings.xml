@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vidas Pasadas</string>
+    <string name="start">Hablar con el vidente</string>
+    <string name="title">Saludos. ¿Hay algo que quiera saber de su pasado en otras dimenesiones?</string>
+    <string name="title2">Venga conmigo agradable errante, le contaré quién o qué fuiste…</string>
+    <string name="continueError">Por favor, ¡necesito esa información!</string>
+    <string name="askName">Dime, ¿como le llaman las otras personas? ¿Tiene nombre?</string>
+    <string name="askDate">Necesito saber la fecha en la que apareciste en este mundo.</string>
+    <string name="askAnimal">¿Qué animal preferiría como acompañante?</string>
+    <string name="askPlace">Ya puedo ver algo… ¿Preferiría vivir en…?</string>
+    <string name="askGift">Usted me agrada. Escoja un regalo.</string>
+    <string name="thinking">Tu pasado está llegando a mi mente…</string>
+    <string name="chGift1">Gafas de sol</string>
+    <string name="chGift2">Pastel</string>
+    <string name="chGift3">Tablero de ajedrez</string>
+    <string name="hint">Tu respuesta</string>
+    <string name="backMessage">¿Porqué me abandona?</string>
+    <string name="notAnswerMessage">Tiene que contestarme.</string>
+    <string name="story">Fuiste alguien de nombre %1$s, %2$s que %3$s.
+        Moriste a los %4$d años %5$s.</string>
+</resources>
