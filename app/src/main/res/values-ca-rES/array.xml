@@ -1,0 +1,32 @@
+<resources>
+    <string-array name="animals">
+        <item>Pop</item>
+        <item>Camaleó</item>
+        <item>Porc</item>
+        <item>Corb</item>
+    </string-array>
+    <string-array name="races">
+        <item>un plançó de Cthulhu</item>
+        <item>un descendent dels Anunnaki</item>
+        <item>un Uruk-hai</item>
+        <item>una criatura creada per Nito</item>
+    </string-array>
+    <string-array name="features">
+        <item>va ser un dels majors lladres de la seva dimensió</item>
+        <item>va ser un ciutadà mediocre. Vas ser tonto, vago i lleig</item>
+        <item>es va convertir en el comerciant més ric de la ciutat</item>
+    </string-array>
+    <string-array name="death">
+        <item>caient-te per un precipici intentant agafar una moneda que vas veure a sota per tal
+            de comprar alguna beguda alcohòlica. Com a informació, el teu fetge t\'estava agraït
+            per poder morir d\'una vegada</item>
+        <item>sent arrelat per un arbre mil·lenari. Et vas trencar l\'esquena ensopegant-te
+            amb una de les seves arrels, amb tanta mala sort que vas acabar tetraplègic. L\'última
+            cosa que vas veure va ser l\'arbre embolicant-te</item>
+        <item>ofegat quan estabas bussejant al mar. No hauries d\'haver anat dintre d\'aquella
+            cova submarina intentant atrapar un dels peixos legendaris de la teva cultura</item>
+        <item>… olvida-ho. El teu cos segueix viu. Vas ser abduït per aliens i van fer que la
+            teva ment viatgés a través de les dimensions fins que, finalment,
+            va acabar arribant a tú</item>
+    </string-array>
+</resources>
